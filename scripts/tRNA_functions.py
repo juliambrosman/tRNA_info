@@ -66,3 +66,9 @@ def extract_cds_annotations(gbfile, outputfile):
 
     out.close()
     print(str(count)+" annotated features in "+gbfile)
+    
+def extract_org_names(gbk):
+    handle=SeqIO.parse(gbk,"genbank")
+    count=0
+    for g in handle:
+        return g.annotations['source']

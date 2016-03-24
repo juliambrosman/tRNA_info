@@ -1,0 +1,6 @@
+*.txt
+*.png
+*.slurm
+*.fasta
+*.pyc
+*.ipynb_checkpoints
